@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Flexbox</title>
+    <style>
+       .flex-container{
+            display: flex;
+        }
+        
+       .card{
+            background-color: rgb(10, 249, 245);
+            border: 30px solid magenta;
+            height: 100px;
+            flex: 1; /* make all cards equal width */
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Flexbox</h1>
+    <div class="flex-container">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+</body>
+</html>
